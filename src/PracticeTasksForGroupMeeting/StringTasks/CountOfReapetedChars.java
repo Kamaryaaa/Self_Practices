@@ -12,7 +12,7 @@ public class CountOfReapetedChars {
 
     public static String countChars(String str){
         String result="";// for sorting the result
-        int count=0;//for counting thars
+        int count=0;//for counting how many times the chars occur
         char temp=str.charAt(0);//for comparing it with every char in the string
 
         for (char each : str.toCharArray()) {
