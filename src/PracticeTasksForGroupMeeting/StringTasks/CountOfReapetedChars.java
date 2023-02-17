@@ -21,8 +21,8 @@ public class CountOfReapetedChars {
 
             }else {// if each not equal to temp
                 result +=""+temp+count;//storing the chars and the count into the result
-                                       // empty string: for concatenating as a string
-                temp=each;
+                // empty string: for concatenating as a string
+                temp=each;// reassign the temp to each
                 count=1;
             }
 
